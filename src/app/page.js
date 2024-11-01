@@ -1,6 +1,7 @@
 import Image from "next/image";
-
+import Navbar from "../components/Navbar/Navbar"
 export default function Home() {
+<<<<<<< HEAD
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
@@ -99,4 +100,9 @@ export default function Home() {
       </footer>
     </div>
   );
+=======
+  return <>
+  <Navbar/>
+  </>;
+>>>>>>> b1956fd0197d3e82bf48258f705fe79b1b09bbfe
 }
