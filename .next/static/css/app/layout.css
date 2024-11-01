@@ -1,0 +1,212 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\layout.js","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: 'geistSans';
+src: url(/_next/static/media/4473ecc91f70f139-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: 'geistSans Fallback';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
+}.__className_1e4310 {font-family: 'geistSans', 'geistSans Fallback'
+}.__variable_1e4310 {--font-geist-sans: 'geistSans', 'geistSans Fallback'
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"src\\app\\layout.js","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: 'geistMono';
+src: url(/_next/static/media/463dafcda517f24f-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: 'geistMono Fallback';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
+}.__className_c3aa02 {font-family: 'geistMono', 'geistMono Fallback'
+}.__variable_c3aa02 {--font-geist-mono: 'geistMono', 'geistMono Fallback'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header-line {
+  padding: 10px;
+  background: #e60d2e;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.header-line strong a {
+  text-decoration: underline;
+  color: white;
+}
+
+
+.navbar {
+  width: 75%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  
+}
+
+/* .navbar .logo{
+  width: 300px;
+  height: 50px;
+padding-top: 5px;} */
+.main-nav {
+  background: #fff;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar input {
+  background: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: 24px;
+  color: #969696;
+  outline: none;
+  padding: 15px 12px 15px 45px;
+  width: 80%;
+}
+.navbar input::placeholder{
+  font-size: 16px;
+}
+.search-bar {
+  position: relative;
+  flex: 1; 
+  min-width: 200px; 
+  max-width: 500px;
+}
+.nav-sign {
+  color: #4e4e4e;
+}
+.nav-sign span{
+  font-size: 18px;
+  height: 30px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.sub-nav {
+  width: 78%;
+  margin: 0 auto;
+}
+
+.main-nav a {
+  text-decoration: none;
+  border-radius: 50px;
+  color: red;
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.sub-nav ul li a {
+  text-decoration: none;
+  color: hsl(0, 1%, 19%);
+  font-weight: 600;
+}
+
+.sub-nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.sub-nav ul li {
+  padding: 15px 10px;
+  list-style-type: none;
+  font-size: 16px;
+  /* display: inline-block;
+  margin-left: 20px; */
+}
+
+.banner {
+  background-image: url(/_next/static/media/bannerimg.28fa8fbb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 30px 0px;
+
+}
+
+.banner-content {
+  width: 73%;
+  margin: 0px auto;
+  color: white;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.banner-content .sub-content {
+  width: 50%;
+  font-size: 25px;
+  margin: 10px 0px;
+  line-height: 1.5;
+}
+
+.banner-content .banner-btn {
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 13px 20px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:1300px) {
+
+  .navbar,
+  .sub-nav {
+    width: 85%;
+  }
+  .banner-content {
+    width: 83%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  .navbar,
+  .sub-nav {
+    width: 90%;
+  }
+  .banner-content {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width:1150px) {
+
+  .navbar,
+  .sub-nav {
+    width: 95%;
+  }
+  .banner-content {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .navbar .header-btn {
+    display: none;
+  }
+}
+
